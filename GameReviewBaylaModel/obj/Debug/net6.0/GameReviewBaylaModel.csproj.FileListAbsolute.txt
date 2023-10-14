@@ -1,0 +1,23 @@
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaModel\bin\Debug\net6.0\GameReviewBaylaModel.deps.json
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaModel\bin\Debug\net6.0\GameReviewBaylaModel.dll
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaModel\bin\Debug\net6.0\GameReviewBaylaModel.pdb
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\GameReviewBaylaModel.csproj.AssemblyReference.cache
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\GameReviewBaylaModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\GameReviewBaylaModel.AssemblyInfoInputs.cache
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\GameReviewBaylaModel.AssemblyInfo.cs
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\GameReviewBaylaModel.csproj.CoreCompileInputs.cache
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\GameReviewBaylaModel.dll
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\refint\GameReviewBaylaModel.dll
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\GameReviewBaylaModel.pdb
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\ref\GameReviewBaylaModel.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaModel\bin\Debug\net6.0\GameReviewBaylaModel.deps.json
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaModel\bin\Debug\net6.0\GameReviewBaylaModel.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaModel\bin\Debug\net6.0\GameReviewBaylaModel.pdb
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\GameReviewBaylaModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\GameReviewBaylaModel.AssemblyInfoInputs.cache
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\GameReviewBaylaModel.AssemblyInfo.cs
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\GameReviewBaylaModel.csproj.CoreCompileInputs.cache
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\GameReviewBaylaModel.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\refint\GameReviewBaylaModel.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\GameReviewBaylaModel.pdb
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\ref\GameReviewBaylaModel.dll

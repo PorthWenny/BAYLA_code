@@ -1,0 +1,12 @@
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\bin\Debug\net6.0\GameReviewBayla.deps.json
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\bin\Debug\net6.0\GameReviewBayla.dll
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\bin\Debug\net6.0\GameReviewBayla.pdb
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\GameReviewBayla.csproj.AssemblyReference.cache
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\GameReviewBayla.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\GameReviewBayla.AssemblyInfoInputs.cache
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\GameReviewBayla.AssemblyInfo.cs
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\GameReviewBayla.csproj.CoreCompileInputs.cache
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\GameReviewBayla.dll
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\refint\GameReviewBayla.dll
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\GameReviewBayla.pdb
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\ref\GameReviewBayla.dll

@@ -1,0 +1,34 @@
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\bin\Debug\net6.0\GameReviewBaylaBusLogic.deps.json
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\bin\Debug\net6.0\GameReviewBaylaBusLogic.dll
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\bin\Debug\net6.0\GameReviewBaylaBusLogic.pdb
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\bin\Debug\net6.0\GameReviewBaylaModel.dll
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\bin\Debug\net6.0\IGameReviewBayla.dll
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\bin\Debug\net6.0\GameReviewBaylaModel.pdb
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\bin\Debug\net6.0\IGameReviewBayla.pdb
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\GameReviewBaylaBusLogic.csproj.AssemblyReference.cache
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\GameReviewBaylaBusLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\GameReviewBaylaBusLogic.AssemblyInfoInputs.cache
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\GameReviewBaylaBusLogic.AssemblyInfo.cs
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\GameReviewBaylaBusLogic.csproj.CoreCompileInputs.cache
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\GameReviewBaylaBusLogic.csproj.CopyComplete
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\GameReviewBaylaBusLogic.dll
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\refint\GameReviewBaylaBusLogic.dll
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\GameReviewBaylaBusLogic.pdb
+C:\Users\CSSDF018081\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\ref\GameReviewBaylaBusLogic.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\gamereview_BAYLA\bin\Debug\net6.0\GameReviewBaylaBusLogic.deps.json
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\gamereview_BAYLA\bin\Debug\net6.0\GameReviewBaylaBusLogic.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\gamereview_BAYLA\bin\Debug\net6.0\GameReviewBaylaBusLogic.pdb
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\gamereview_BAYLA\bin\Debug\net6.0\GameReviewBaylaModel.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\gamereview_BAYLA\bin\Debug\net6.0\IGameReviewBayla.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\gamereview_BAYLA\bin\Debug\net6.0\GameReviewBaylaModel.pdb
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\gamereview_BAYLA\bin\Debug\net6.0\IGameReviewBayla.pdb
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\GameReviewBaylaBusLogic.csproj.AssemblyReference.cache
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\GameReviewBaylaBusLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\GameReviewBaylaBusLogic.AssemblyInfoInputs.cache
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\GameReviewBaylaBusLogic.AssemblyInfo.cs
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\GameReviewBaylaBusLogic.csproj.CoreCompileInputs.cache
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\GameReviewBaylaBusLogic.csproj.CopyComplete
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\GameReviewBaylaBusLogic.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\refint\GameReviewBaylaBusLogic.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\GameReviewBaylaBusLogic.pdb
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\gamereview_BAYLA\obj\Debug\net6.0\ref\GameReviewBaylaBusLogic.dll

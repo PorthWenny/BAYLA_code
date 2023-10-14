@@ -1,0 +1,91 @@
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\GameReviewBaylaConsole.exe
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\GameReviewBaylaConsole.deps.json
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\GameReviewBaylaConsole.runtimeconfig.json
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\GameReviewBaylaConsole.dll
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\GameReviewBaylaConsole.pdb
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaConsole\obj\Debug\net6.0\GameReviewBaylaConsole.csproj.AssemblyReference.cache
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaConsole\obj\Debug\net6.0\GameReviewBaylaConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaConsole\obj\Debug\net6.0\GameReviewBaylaConsole.AssemblyInfoInputs.cache
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaConsole\obj\Debug\net6.0\GameReviewBaylaConsole.AssemblyInfo.cs
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaConsole\obj\Debug\net6.0\GameReviewBaylaConsole.csproj.CoreCompileInputs.cache
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaConsole\obj\Debug\net6.0\GameReviewBaylaConsole.dll
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaConsole\obj\Debug\net6.0\refint\GameReviewBaylaConsole.dll
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaConsole\obj\Debug\net6.0\GameReviewBaylaConsole.pdb
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaConsole\obj\Debug\net6.0\GameReviewBaylaConsole.genruntimeconfig.cache
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaConsole\obj\Debug\net6.0\ref\GameReviewBaylaConsole.dll
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\GameReviewBaylaBusLogic.dll
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\GameReviewBaylaModel.dll
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\IGameReviewBayla.dll
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\GameReviewBaylaBusLogic.pdb
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\GameReviewBaylaModel.pdb
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\IGameReviewBayla.pdb
+C:\Users\CSSDF018081\Documents\BAYLA_code\GameReviewBaylaConsole\obj\Debug\net6.0\GameReviewBaylaConsole.csproj.CopyComplete
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\GameReviewBaylaConsole.exe
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\GameReviewBaylaConsole.deps.json
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\GameReviewBaylaConsole.runtimeconfig.json
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\GameReviewBaylaConsole.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\GameReviewBaylaConsole.pdb
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\GameReviewBaylaBusLogic.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\GameReviewBaylaModel.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\IGameReviewBayla.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\GameReviewBaylaBusLogic.pdb
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\GameReviewBaylaModel.pdb
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\IGameReviewBayla.pdb
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\obj\Debug\net6.0\GameReviewBaylaConsole.csproj.AssemblyReference.cache
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\obj\Debug\net6.0\GameReviewBaylaConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\obj\Debug\net6.0\GameReviewBaylaConsole.AssemblyInfoInputs.cache
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\obj\Debug\net6.0\GameReviewBaylaConsole.AssemblyInfo.cs
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\obj\Debug\net6.0\GameReviewBaylaConsole.csproj.CoreCompileInputs.cache
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\obj\Debug\net6.0\GameReviewBaylaConsole.csproj.CopyComplete
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\obj\Debug\net6.0\GameReviewBaylaConsole.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\obj\Debug\net6.0\refint\GameReviewBaylaConsole.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\obj\Debug\net6.0\GameReviewBaylaConsole.pdb
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\obj\Debug\net6.0\GameReviewBaylaConsole.genruntimeconfig.cache
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\obj\Debug\net6.0\ref\GameReviewBaylaConsole.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewBaylaConsole\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll

@@ -1,0 +1,184 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\CSSDF018081\\Documents\\BAYLA_code\\gamereview_BAYLA\\GameReviewBayla.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\CSSDF018081\\Documents\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CSSDF018081\\Documents\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj",
+        "projectName": "GameReviewBaylaModel",
+        "projectPath": "C:\\Users\\CSSDF018081\\Documents\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj",
+        "packagesPath": "C:\\Users\\CSSDF018081\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CSSDF018081\\Documents\\BAYLA_code\\GameReviewBaylaModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CSSDF018081\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CSSDF018081\\Documents\\BAYLA_code\\gamereview_BAYLA\\GameReviewBayla.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CSSDF018081\\Documents\\BAYLA_code\\gamereview_BAYLA\\GameReviewBayla.csproj",
+        "projectName": "GameReviewBayla",
+        "projectPath": "C:\\Users\\CSSDF018081\\Documents\\BAYLA_code\\gamereview_BAYLA\\GameReviewBayla.csproj",
+        "packagesPath": "C:\\Users\\CSSDF018081\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CSSDF018081\\Documents\\BAYLA_code\\gamereview_BAYLA\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CSSDF018081\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\CSSDF018081\\Documents\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj": {
+                "projectPath": "C:\\Users\\CSSDF018081\\Documents\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj"
+              },
+              "C:\\Users\\CSSDF018081\\Documents\\BAYLA_code\\IGameReviewBayla\\IGameReviewBayla.csproj": {
+                "projectPath": "C:\\Users\\CSSDF018081\\Documents\\BAYLA_code\\IGameReviewBayla\\IGameReviewBayla.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CSSDF018081\\Documents\\BAYLA_code\\IGameReviewBayla\\IGameReviewBayla.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CSSDF018081\\Documents\\BAYLA_code\\IGameReviewBayla\\IGameReviewBayla.csproj",
+        "projectName": "IGameReviewBayla",
+        "projectPath": "C:\\Users\\CSSDF018081\\Documents\\BAYLA_code\\IGameReviewBayla\\IGameReviewBayla.csproj",
+        "packagesPath": "C:\\Users\\CSSDF018081\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CSSDF018081\\Documents\\BAYLA_code\\IGameReviewBayla\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CSSDF018081\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\CSSDF018081\\Documents\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj": {
+                "projectPath": "C:\\Users\\CSSDF018081\\Documents\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
