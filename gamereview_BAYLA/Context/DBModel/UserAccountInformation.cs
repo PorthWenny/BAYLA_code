@@ -11,7 +11,6 @@ namespace GameReviewBaylaBusLogic.Context.DBModel
     {
         [Key]
         // mapping Database in class library
-        public int Account_Id { get; internal set; }
         public string First_name { get; internal set; }
         public string Last_name { get; internal set; }
         public string Username { get; internal set; }

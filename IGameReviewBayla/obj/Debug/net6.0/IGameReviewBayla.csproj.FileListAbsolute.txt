@@ -28,3 +28,18 @@ C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\IGameRevie
 C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\IGameReviewBayla\obj\Debug\net6.0\refint\IGameReviewBayla.dll
 C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\IGameReviewBayla\obj\Debug\net6.0\IGameReviewBayla.pdb
 C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\IGameReviewBayla\obj\Debug\net6.0\ref\IGameReviewBayla.dll
+C:\Users\CSSDF018081\Source\Repos\PorthWenny\BAYLA_code\IGameReviewBayla\bin\Debug\net6.0\IGameReviewBayla.deps.json
+C:\Users\CSSDF018081\Source\Repos\PorthWenny\BAYLA_code\IGameReviewBayla\bin\Debug\net6.0\IGameReviewBayla.dll
+C:\Users\CSSDF018081\Source\Repos\PorthWenny\BAYLA_code\IGameReviewBayla\bin\Debug\net6.0\IGameReviewBayla.pdb
+C:\Users\CSSDF018081\Source\Repos\PorthWenny\BAYLA_code\IGameReviewBayla\bin\Debug\net6.0\GameReviewBaylaModel.dll
+C:\Users\CSSDF018081\Source\Repos\PorthWenny\BAYLA_code\IGameReviewBayla\bin\Debug\net6.0\GameReviewBaylaModel.pdb
+C:\Users\CSSDF018081\Source\Repos\PorthWenny\BAYLA_code\IGameReviewBayla\obj\Debug\net6.0\IGameReviewBayla.csproj.AssemblyReference.cache
+C:\Users\CSSDF018081\Source\Repos\PorthWenny\BAYLA_code\IGameReviewBayla\obj\Debug\net6.0\IGameReviewBayla.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CSSDF018081\Source\Repos\PorthWenny\BAYLA_code\IGameReviewBayla\obj\Debug\net6.0\IGameReviewBayla.AssemblyInfoInputs.cache
+C:\Users\CSSDF018081\Source\Repos\PorthWenny\BAYLA_code\IGameReviewBayla\obj\Debug\net6.0\IGameReviewBayla.AssemblyInfo.cs
+C:\Users\CSSDF018081\Source\Repos\PorthWenny\BAYLA_code\IGameReviewBayla\obj\Debug\net6.0\IGameReviewBayla.csproj.CoreCompileInputs.cache
+C:\Users\CSSDF018081\Source\Repos\PorthWenny\BAYLA_code\IGameReviewBayla\obj\Debug\net6.0\IGameReviewBayla.csproj.CopyComplete
+C:\Users\CSSDF018081\Source\Repos\PorthWenny\BAYLA_code\IGameReviewBayla\obj\Debug\net6.0\IGameReviewBayla.dll
+C:\Users\CSSDF018081\Source\Repos\PorthWenny\BAYLA_code\IGameReviewBayla\obj\Debug\net6.0\refint\IGameReviewBayla.dll
+C:\Users\CSSDF018081\Source\Repos\PorthWenny\BAYLA_code\IGameReviewBayla\obj\Debug\net6.0\IGameReviewBayla.pdb
+C:\Users\CSSDF018081\Source\Repos\PorthWenny\BAYLA_code\IGameReviewBayla\obj\Debug\net6.0\ref\IGameReviewBayla.dll

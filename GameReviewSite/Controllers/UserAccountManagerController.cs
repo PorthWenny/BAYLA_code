@@ -8,11 +8,13 @@ namespace GameReviewSite.Controllers
     {
         private readonly UserAccountManager AccManager;
         private User UserDetails;
+        private string uname;
 
         public UserAccountManagerController()
         {
             AccManager = new UserAccountManager();
             UserDetails = new User();
+            string uname;
         }
         public IActionResult Login()
         {
@@ -28,7 +30,7 @@ namespace GameReviewSite.Controllers
 
         public IActionResult Show()
         {
-            AccManager.ShowUser(UserDetails);
+            AccManager.RetrieveUser(UserDetails, uname);
             return View();
         }
 

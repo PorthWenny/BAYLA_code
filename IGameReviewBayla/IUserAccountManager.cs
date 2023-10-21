@@ -13,6 +13,7 @@ namespace IGameReviewBayla
         // Redeclare the function into the interface (no implementation).
         public void LoginUser(User userDetails);
         public void RegisterUser(User userDetails);
-        public void ShowUser(User userDetails);
+        public void RetrieveUser(User userDetails, string uname);
+        public bool CheckAvailability(string check_string);
     }
 }

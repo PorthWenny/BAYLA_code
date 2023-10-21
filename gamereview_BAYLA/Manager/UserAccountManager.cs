@@ -1,4 +1,5 @@
 ﻿using GameReviewBaylaBusLogic.Context;
+using GameReviewBaylaBusLogic.Abstraction;
 using GameReviewBaylaBusLogic.Manager;
 using GameReviewBaylaBusLogic.Context.DBModel;
 using GameReviewBaylaModel.Model;
@@ -12,7 +13,7 @@ using System.Threading.Tasks;
 namespace GameReviewBaylaBusLogic.Manager
 {
     // Initialize class using PascalCase. Create implementation of the interface.
-    public class UserAccountManager : IUserAccountManager
+    public class UserAccountManager : UserAbstract, IUserAccountManager
     {
         // Initialize constructor with same name as class, execute w/o functions.
         public UserAccountManager()
@@ -35,7 +36,6 @@ namespace GameReviewBaylaBusLogic.Manager
             {
                 // entity object creation
                 var _userAccount = new UserAccountInformation();
-                _userAccount.Account_Id = userDetails.ID;
                 _userAccount.Username = userDetails.UserName;
                 _userAccount.First_name = userDetails.FirstName;
                 _userAccount.Last_name = userDetails.LastName;
@@ -55,19 +55,28 @@ namespace GameReviewBaylaBusLogic.Manager
             }
         }
 
-        public void ShowUser(User userDetails)
+        public void RetrieveUser(User userDetails, string uname)
         {
-            Console.WriteLine("==============================================");
-            Console.WriteLine($"     Showing [{userDetails.ID}] User Info      ");
-            Console.WriteLine("==============================================");
-            Thread.Sleep(1000);
-            Console.WriteLine($"Username: {userDetails.UserName}");
-            Thread.Sleep(1000);
-            Console.WriteLine($"Full Name: {userDetails.FirstName} {userDetails.LastName}");
+            using (var _context = new GameReviewDBContext())
+            {
+                UserAccountInformation details = _context.UserAccountInformation.Where(user => String.Equals(user.Username, uname)).First();
 
-            Thread.Sleep(2000);
-            Console.WriteLine("\nThank you for logging in.");
-            Thread.Sleep(2000);
+                userDetails.FirstName = details.First_name;
+                userDetails.LastName = details.Last_name;
+                userDetails.UserName = details.Username;
+                userDetails.PassWord = details.Password;
+            }
         }
+
+        public override bool CheckAvailability (string check_string)
+        {
+            using (var _context = new GameReviewDBContext())
+            {
+                bool exists = _context.UserAccountInformation.Any(user => String.Equals(user.Username, check_string));
+
+                return exists;
+            }
+        }
+
     }
 }

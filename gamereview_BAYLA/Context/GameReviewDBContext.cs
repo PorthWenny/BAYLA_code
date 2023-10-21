@@ -5,18 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 using GameReviewBaylaBusLogic.Context.DBModel;
 using Microsoft.EntityFrameworkCore;
-using GameReviewBaylaBusLogic.Context.DBModel;
 
 namespace GameReviewBaylaBusLogic.Context
 {
-    internal class GameReviewDBContext:DbContext 
+    internal class GameReviewDBContext: DbContext
     {
         public DbSet<UserAccountInformation> UserAccountInformation {  get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Server=PC-Chron0s\\SQLEXPRESS;Database=UserAccountSystem;Trusted_Connection=True;TrustServerCertificate=True;Encrypt=false;");
+            optionsBuilder.UseNpgsql("User Id=postgres;Password=g4qEJzFtavGBcSkS;Server=db.aktytbzvpldtdbxujshl.supabase.co;Port=5432;Database=postgres");
         }
 
     }

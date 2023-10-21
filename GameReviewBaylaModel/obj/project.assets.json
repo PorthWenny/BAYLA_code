@@ -8,24 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\CHRONOS\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\CSSDF018081\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CHRONOS\\Dropbox\\My PC (DESKTOP-MB5HNEI)\\Documents\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj",
+      "projectUniqueName": "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj",
       "projectName": "GameReviewBaylaModel",
-      "projectPath": "C:\\Users\\CHRONOS\\Dropbox\\My PC (DESKTOP-MB5HNEI)\\Documents\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj",
-      "packagesPath": "C:\\Users\\CHRONOS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CHRONOS\\Dropbox\\My PC (DESKTOP-MB5HNEI)\\Documents\\BAYLA_code\\GameReviewBaylaModel\\obj\\",
+      "projectPath": "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj",
+      "packagesPath": "C:\\Users\\CSSDF018081\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaModel\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\CHRONOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\CSSDF018081\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -67,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
