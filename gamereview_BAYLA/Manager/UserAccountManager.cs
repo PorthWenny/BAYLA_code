@@ -34,12 +34,14 @@ namespace GameReviewBaylaBusLogic.Manager
         {
             using (var context = new GameReviewDBContext())
             {
-                // entity object creation
+           
+              // entity object creation
                 var _userAccount = new UserAccountInformation();
                 _userAccount.Username = userDetails.UserName;
                 _userAccount.First_name = userDetails.FirstName;
                 _userAccount.Last_name = userDetails.LastName;
                 _userAccount.Password = userDetails.PassWord;
+                _userAccount.Birth_date = userDetails.BirthDate;
 
                 // add to context
                 context.UserAccountInformation.Add(_userAccount);
@@ -55,6 +57,12 @@ namespace GameReviewBaylaBusLogic.Manager
             }
         }
 
+        private int CalculateAge (DateTime birth)
+        {
+            int age;
+            return age = birth.Year - DateTime.Now.Year;
+        }
+
         public void RetrieveUser(User userDetails, string uname)
         {
             using (var _context = new GameReviewDBContext())
@@ -65,10 +73,11 @@ namespace GameReviewBaylaBusLogic.Manager
                 userDetails.LastName = details.Last_name;
                 userDetails.UserName = details.Username;
                 userDetails.PassWord = details.Password;
+                userDetails.Age = CalculateAge(details.Birth_date);
             }
         }
 
-        public override bool CheckAvailability (string check_string)
+        public override bool CheckAvailability(string check_string)
         {
             using (var _context = new GameReviewDBContext())
             {

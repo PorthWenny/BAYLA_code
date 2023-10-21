@@ -66,6 +66,9 @@ do
 
 details.PassWord = pass;
 
+Console.WriteLine();
+Console.Write($"Enter birth date (e.g. 10/22/1987): ");
+DateTime utcDateTime = DateTime.SpecifyKind(DateTime.Parse(Console.ReadLine()), DateTimeKind.Utc);
 
 Thread.Sleep(2000);
 Console.WriteLine();
@@ -81,6 +84,8 @@ Console.WriteLine($"     Showing [{details.UserName}] User Info      ");
 Console.WriteLine("==============================================");
 Thread.Sleep(1000);
 Console.WriteLine($"Full Name: {details.FirstName} {details.LastName}");
+Thread.Sleep(1000);
+Console.WriteLine($"Age: {details.Age}");
 
 Thread.Sleep(2000);
 Console.WriteLine("\nThank you for logging in.");

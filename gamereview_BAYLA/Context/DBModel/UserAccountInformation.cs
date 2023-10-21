@@ -15,5 +15,6 @@ namespace GameReviewBaylaBusLogic.Context.DBModel
         public string Last_name { get; internal set; }
         public string Username { get; internal set; }
         public string Password { get; internal set; }
+        public DateTime Birth_date { get; internal set; }
     }
 }
