@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "abRxi4gBKsSgjfFr0BTxwzBQeAYD95h/Qw3BTeNZvJf54Ed0XpA51gHxcNpjiGOQEga9O3vTqCpSNjSAThB9xg==",
+  "dgSpecHash": "NMIqQD4ytz61RZ2xljzVVlRtbStRGzcumlPdONrOqcSqpi7X240V0a0DhtQ929FOAS9Q7XmhPLrVxQOilxr9+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\GameReviewSite\\GameReviewSite.csproj",
+  "projectFilePath": "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\GameReviewSite\\GameReviewSite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CSSDF018081\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\CSSDF018081\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

@@ -10,12 +10,12 @@ namespace GameReviewBaylaModel.Model
     public class User
     {
         // treat as Object entity, use PascalCase.
+        public Guid Id { get; set; }
         public string UserName { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string PassWord { get; set; }
         public DateTime BirthDate { get; set; }
         public int Age { get; set; }
-
     }
 }

@@ -27,21 +27,18 @@ namespace GameReviewBaylaBusLogic.Manager
             Thread.Sleep(1000);
             Console.WriteLine("Logging in, showing user info...\n");
             Thread.Sleep(3000);
-
         }
 
-        public void RegisterUser(User userDetails)
+        public override Guid InsertUser (User userDetails)
         {
+            Guid myId;
+
             using (var context = new GameReviewDBContext())
             {
-           
               // entity object creation
                 var _userAccount = new UserAccountInformation();
                 _userAccount.Username = userDetails.UserName;
-                _userAccount.First_name = userDetails.FirstName;
-                _userAccount.Last_name = userDetails.LastName;
                 _userAccount.Password = userDetails.PassWord;
-                _userAccount.Birth_date = userDetails.BirthDate;
 
                 // add to context
                 context.UserAccountInformation.Add(_userAccount);
@@ -55,12 +52,8 @@ namespace GameReviewBaylaBusLogic.Manager
                     // blank
                 }
             }
-        }
 
-        private int CalculateAge (DateTime birth)
-        {
-            int age;
-            return age = birth.Year - DateTime.Now.Year;
+            return _userAccount.Id;
         }
 
         public void RetrieveUser(User userDetails, string uname)
@@ -69,15 +62,13 @@ namespace GameReviewBaylaBusLogic.Manager
             {
                 UserAccountInformation details = _context.UserAccountInformation.Where(user => String.Equals(user.Username, uname)).First();
 
-                userDetails.FirstName = details.First_name;
-                userDetails.LastName = details.Last_name;
                 userDetails.UserName = details.Username;
                 userDetails.PassWord = details.Password;
-                userDetails.Age = CalculateAge(details.Birth_date);
+                userDetails.Id = details.UserId;
             }
         }
 
-        public override bool CheckAvailability(string check_string)
+        public bool CheckAvailability(string check_string)
         {
             using (var _context = new GameReviewDBContext())
             {

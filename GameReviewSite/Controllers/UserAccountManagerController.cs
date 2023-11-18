@@ -24,7 +24,7 @@ namespace GameReviewSite.Controllers
 
         public IActionResult Register()
         {
-            AccManager.RegisterUser(UserDetails);
+            AccManager.InsertUser(UserDetails);
             return View();
         }
 

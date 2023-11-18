@@ -253,3 +253,14 @@ C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReview
 C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewSite\obj\Debug\net6.0\GameReviewSite.pdb
 C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewSite\obj\Debug\net6.0\GameReviewSite.genruntimeconfig.cache
 C:\Users\CHRONOS\Dropbox\My PC (DESKTOP-MB5HNEI)\Documents\BAYLA_code\GameReviewSite\obj\Debug\net6.0\ref\GameReviewSite.dll
+C:\Users\CSSDF018081\source\repos\PorthWenny\BAYLA_code\GameReviewSite\obj\Debug\net6.0\GameReviewSite.csproj.AssemblyReference.cache
+C:\Users\CSSDF018081\source\repos\PorthWenny\BAYLA_code\GameReviewSite\obj\Debug\net6.0\GameReviewSite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CSSDF018081\source\repos\PorthWenny\BAYLA_code\GameReviewSite\obj\Debug\net6.0\GameReviewSite.AssemblyInfoInputs.cache
+C:\Users\CSSDF018081\source\repos\PorthWenny\BAYLA_code\GameReviewSite\obj\Debug\net6.0\GameReviewSite.AssemblyInfo.cs
+C:\Users\CSSDF018081\source\repos\PorthWenny\BAYLA_code\GameReviewSite\obj\Debug\net6.0\GameReviewSite.csproj.CoreCompileInputs.cache
+C:\Users\CSSDF018081\source\repos\PorthWenny\BAYLA_code\GameReviewSite\obj\Debug\net6.0\GameReviewSite.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\CSSDF018081\source\repos\PorthWenny\BAYLA_code\GameReviewSite\obj\Debug\net6.0\GameReviewSite.RazorAssemblyInfo.cache
+C:\Users\CSSDF018081\source\repos\PorthWenny\BAYLA_code\GameReviewSite\obj\Debug\net6.0\GameReviewSite.RazorAssemblyInfo.cs
+C:\Users\CSSDF018081\source\repos\PorthWenny\BAYLA_code\GameReviewSite\obj\Debug\net6.0\GameReviewSite.dll
+C:\Users\CSSDF018081\source\repos\PorthWenny\BAYLA_code\GameReviewSite\obj\Debug\net6.0\refint\GameReviewSite.dll
+C:\Users\CSSDF018081\source\repos\PorthWenny\BAYLA_code\GameReviewSite\obj\Debug\net6.0\GameReviewSite.pdb
