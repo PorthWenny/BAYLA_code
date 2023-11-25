@@ -2761,11 +2761,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaConsole\\GameReviewBaylaConsole.csproj",
+      "projectUniqueName": "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaConsole\\GameReviewBaylaConsole.csproj",
       "projectName": "GameReviewBaylaConsole",
-      "projectPath": "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaConsole\\GameReviewBaylaConsole.csproj",
+      "projectPath": "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaConsole\\GameReviewBaylaConsole.csproj",
       "packagesPath": "C:\\Users\\CSSDF018081\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaConsole\\obj\\",
+      "outputPath": "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaConsole\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CSSDF018081\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2782,8 +2782,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\gamereview_BAYLA\\GameReviewBaylaBusLogic.csproj": {
-              "projectPath": "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\gamereview_BAYLA\\GameReviewBaylaBusLogic.csproj"
+            "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\gamereview_BAYLA\\GameReviewBaylaBusLogic.csproj": {
+              "projectPath": "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\gamereview_BAYLA\\GameReviewBaylaBusLogic.csproj"
             }
           }
         }
@@ -2823,7 +2823,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

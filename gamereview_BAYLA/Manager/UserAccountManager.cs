@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace GameReviewBaylaBusLogic.Manager
 {
@@ -31,8 +32,6 @@ namespace GameReviewBaylaBusLogic.Manager
 
         public override Guid InsertUser (User userDetails)
         {
-            Guid myId;
-
             using (var context = new GameReviewDBContext())
             {
               // entity object creation
@@ -51,9 +50,12 @@ namespace GameReviewBaylaBusLogic.Manager
                 {
                     // blank
                 }
+
+                RetrieveUser(userDetails, _userAccount.Username);
+
+                return _userAccount.UserId = userDetails.Id;
             }
 
-            return _userAccount.Id;
         }
 
         public void RetrieveUser(User userDetails, string uname)

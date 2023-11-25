@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaConsole\\GameReviewBaylaConsole.csproj": {}
+    "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaConsole\\GameReviewBaylaConsole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaConsole\\GameReviewBaylaConsole.csproj": {
+    "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaConsole\\GameReviewBaylaConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaConsole\\GameReviewBaylaConsole.csproj",
+        "projectUniqueName": "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaConsole\\GameReviewBaylaConsole.csproj",
         "projectName": "GameReviewBaylaConsole",
-        "projectPath": "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaConsole\\GameReviewBaylaConsole.csproj",
+        "projectPath": "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaConsole\\GameReviewBaylaConsole.csproj",
         "packagesPath": "C:\\Users\\CSSDF018081\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaConsole\\obj\\",
+        "outputPath": "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaConsole\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CSSDF018081\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\gamereview_BAYLA\\GameReviewBaylaBusLogic.csproj": {
-                "projectPath": "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\gamereview_BAYLA\\GameReviewBaylaBusLogic.csproj"
+              "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\gamereview_BAYLA\\GameReviewBaylaBusLogic.csproj": {
+                "projectPath": "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\gamereview_BAYLA\\GameReviewBaylaBusLogic.csproj"
               }
             }
           }
@@ -69,18 +69,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj": {
+    "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj",
+        "projectUniqueName": "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj",
         "projectName": "GameReviewBaylaModel",
-        "projectPath": "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj",
+        "projectPath": "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj",
         "packagesPath": "C:\\Users\\CSSDF018081\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaModel\\obj\\",
+        "outputPath": "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CSSDF018081\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -124,18 +124,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\gamereview_BAYLA\\GameReviewBaylaBusLogic.csproj": {
+    "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\gamereview_BAYLA\\GameReviewBaylaBusLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\gamereview_BAYLA\\GameReviewBaylaBusLogic.csproj",
+        "projectUniqueName": "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\gamereview_BAYLA\\GameReviewBaylaBusLogic.csproj",
         "projectName": "GameReviewBaylaBusLogic",
-        "projectPath": "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\gamereview_BAYLA\\GameReviewBaylaBusLogic.csproj",
+        "projectPath": "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\gamereview_BAYLA\\GameReviewBaylaBusLogic.csproj",
         "packagesPath": "C:\\Users\\CSSDF018081\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\gamereview_BAYLA\\obj\\",
+        "outputPath": "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\gamereview_BAYLA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CSSDF018081\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -152,11 +152,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj": {
-                "projectPath": "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj"
+              "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj": {
+                "projectPath": "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj"
               },
-              "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\IGameReviewBayla\\IGameReviewBayla.csproj": {
-                "projectPath": "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\IGameReviewBayla\\IGameReviewBayla.csproj"
+              "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\IGameReviewBayla\\IGameReviewBayla.csproj": {
+                "projectPath": "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\IGameReviewBayla\\IGameReviewBayla.csproj"
               }
             }
           }
@@ -204,18 +204,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\IGameReviewBayla\\IGameReviewBayla.csproj": {
+    "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\IGameReviewBayla\\IGameReviewBayla.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\IGameReviewBayla\\IGameReviewBayla.csproj",
+        "projectUniqueName": "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\IGameReviewBayla\\IGameReviewBayla.csproj",
         "projectName": "IGameReviewBayla",
-        "projectPath": "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\IGameReviewBayla\\IGameReviewBayla.csproj",
+        "projectPath": "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\IGameReviewBayla\\IGameReviewBayla.csproj",
         "packagesPath": "C:\\Users\\CSSDF018081\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\IGameReviewBayla\\obj\\",
+        "outputPath": "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\IGameReviewBayla\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CSSDF018081\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -232,8 +232,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj": {
-                "projectPath": "C:\\Users\\CSSDF018081\\source\\repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj"
+              "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj": {
+                "projectPath": "C:\\Users\\CSSDF018081\\Source\\Repos\\PorthWenny\\BAYLA_code\\GameReviewBaylaModel\\GameReviewBaylaModel.csproj"
               }
             }
           }
@@ -263,7 +263,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
