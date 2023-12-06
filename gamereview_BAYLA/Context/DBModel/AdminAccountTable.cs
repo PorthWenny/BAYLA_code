@@ -14,8 +14,8 @@ namespace GameReviewBaylaBusLogic.Context.DBModel
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public Guid Id { get; set; }
-        public string First_name { get; set; }
-        public string Last_name { get; set; }
-        public DateTime Birth_date { get; set; }
+        public string First_Name { get; set; }
+        public string Last_Name { get; set; }
+        public DateTime Birthdate { get; set; }
     }
 }

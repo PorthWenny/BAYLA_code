@@ -46,7 +46,7 @@ namespace GameReviewBaylaBusLogic.Manager
         private int CalculateAge (DateTime birth)
         {
             int age;
-            return age = birth.Year - DateTime.Now.Year;
+            return age = DateTime.Now.Year - birth.Year;
         }
 
         public void RetrieveRegularInfo (User userDetails)
@@ -57,7 +57,7 @@ namespace GameReviewBaylaBusLogic.Manager
 
                 userDetails.FirstName = details.First_Name;
                 userDetails.LastName = details.Last_Name;
-                userDetails.Age = (CalculateAge(details.Birthdate));
+                userDetails.Age = CalculateAge(details.Birthdate);
             }
         }
 

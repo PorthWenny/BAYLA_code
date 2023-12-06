@@ -11,7 +11,7 @@ namespace IGameReviewBayla
     public interface IUserAccountManager
     {
         // Redeclare the function into the interface (no implementation).
-        public void LoginUser(User userDetails);
+        public bool LoginUser(User userDetails, string uname, string pword);
         public Guid InsertUser(User userDetails);
         public void RetrieveUser(User userDetails, string uname);
         public bool CheckAvailability(string check_string);

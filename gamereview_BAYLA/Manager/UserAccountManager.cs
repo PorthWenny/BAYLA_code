@@ -23,16 +23,29 @@ namespace GameReviewBaylaBusLogic.Manager
         }
 
         // Initialize function using PascalCase.
-        public void LoginUser(User userDetails)
+        public bool LoginUser (User userDetails, string uname, string pword)
         {
-            Thread.Sleep(1000);
-            Console.WriteLine("Logging in, showing user info...\n");
-            Thread.Sleep(3000);
+            using (var _context = new GameReviewDBContext())
+            {
+                bool userExists = _context.UserAccountInformation.Any(user => String.Equals(user.Username, uname));
+
+                if (userExists)
+                {
+                    UserAccountInformation user = _context.UserAccountInformation.FirstOrDefault(u => u.Username == uname);
+
+                    if (user != null && user.Password == pword)
+                    {
+                        RetrieveUser(userDetails, uname);
+                        return true; // found match
+                    }
+                }
+                return false; // did not match
+            }
         }
 
         public override Guid InsertUser (User userDetails)
         {
-            using (var context = new GameReviewDBContext())
+            using (var _context = new GameReviewDBContext())
             {
               // entity object creation
                 var _userAccount = new UserAccountInformation();
@@ -40,13 +53,13 @@ namespace GameReviewBaylaBusLogic.Manager
                 _userAccount.Password = userDetails.PassWord;
 
                 // add to context
-                context.UserAccountInformation.Add(_userAccount);
+                _context.UserAccountInformation.Add(_userAccount);
 
                 // save changes or update to tables
-                context.SaveChanges();
+                _context.SaveChanges();
 
                 // retrieve data from database (inside context)
-                foreach (var s in context.UserAccountInformation)
+                foreach (var s in _context.UserAccountInformation)
                 {
                     // blank
                 }
