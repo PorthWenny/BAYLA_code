@@ -17,10 +17,10 @@ namespace GameReviewBaylaBusLogic.Manager
 
         }
 
-        private int CalculateAge(DateTime birth)
+        private int CalculateAge(DateOnly birth)
         {
             int age;
-            return age = DateTime.Now.Year - birth.Year;
+            return age = DateOnly.FromDateTime(DateTime.Now).Year - birth.Year;
         }
 
         public void RetrieveAdminInfo(User userDetails)

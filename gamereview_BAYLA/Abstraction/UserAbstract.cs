@@ -10,6 +10,5 @@ namespace GameReviewBaylaBusLogic.Abstraction
     public abstract class UserAbstract
     {
         public abstract Guid InsertUser (User userDetails);
-
     }
 }

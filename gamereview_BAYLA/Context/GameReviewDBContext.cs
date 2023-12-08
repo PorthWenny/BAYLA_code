@@ -13,6 +13,8 @@ namespace GameReviewBaylaBusLogic.Context
         public DbSet<UserAccountInformation> UserAccountInformation {  get; set; }
         public DbSet<RegularAccountTable> RegularAccountTable { get; set; }
         public DbSet<AdminAccountTable> AdminAccountTable { get; set; }
+        public DbSet<UserReviewTable> UserReviewTable { get; set; }
+        public DbSet<GamesTable> GamesTable { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

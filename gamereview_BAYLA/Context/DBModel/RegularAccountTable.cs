@@ -16,6 +16,6 @@ namespace GameReviewBaylaBusLogic.Context.DBModel
         public Guid Id { get; internal set; }
         public string First_Name { get; internal set; }
         public string Last_Name { get; internal set; }
-        public DateTime Birthdate { get; internal set; }
+        public DateOnly Birthdate { get; internal set; }
     }
 }
