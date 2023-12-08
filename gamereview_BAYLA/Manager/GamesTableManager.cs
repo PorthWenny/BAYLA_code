@@ -49,7 +49,7 @@ namespace GameReviewBaylaBusLogic.Manager
             return gamesList;
         }
 
-        public void GetGameInfo (Game gameDetails, Guid game_ID)
+        public override void GetInfo (Game gameDetails, Guid game_ID)
         {
             using (var _context = new GameReviewDBContext())
             {

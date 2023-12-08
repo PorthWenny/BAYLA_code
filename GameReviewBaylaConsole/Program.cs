@@ -132,7 +132,7 @@ else if (menuDecision == 2) {
 
     Console.WriteLine();
     Console.Write("Enter birth date (e.g. yyyy-MM-dd): ");
-    DateOnly dateInput = DateOnly.Parse(Console.ReadLine());
+    details.BirthDate = DateOnly.Parse(Console.ReadLine());
 
     Thread.Sleep(2000);
     Console.WriteLine();
@@ -368,14 +368,14 @@ else if (user_Decision == 4) {
     Console.Clear();
     goto ratemenu;
 }
-else if (menuDecision == 5)
+else if (user_Decision == 5)
 {
     Console.WriteLine($"\nLogging out. Please wait...");
     Thread.Sleep(3000);
     Console.Clear();
     goto logout;
 }
-else if (menuDecision == 6)
+else if (user_Decision == 6)
 {
     Environment.Exit(0);
 }
