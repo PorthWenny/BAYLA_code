@@ -340,6 +340,7 @@ else if (user_Decision == 3)
         }
         else
         {
+            listCount++;
             continue;
         }
         
@@ -354,7 +355,7 @@ else if (user_Decision == 3)
 
 }
 else if (user_Decision == 4) {
-    Console.WriteLine("\ns==============================================");
+    Console.WriteLine("\n==============================================");
     Console.WriteLine($"     Showing [{details.UserName}] User Info      ");
     Console.WriteLine("==============================================");
     Thread.Sleep(1000);

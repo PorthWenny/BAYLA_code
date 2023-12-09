@@ -92,7 +92,7 @@ namespace GameReviewBaylaBusLogic.Manager
         }
 
 
-        public override void GetInfo(Review reviewDetails, Guid reviewID)
+        public void GetUserReviewInfo(Review reviewDetails, Guid reviewID)
         {
             using (var _context = new GameReviewDBContext())
             {

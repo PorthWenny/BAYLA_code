@@ -43,3 +43,14 @@ C:\Users\CHRONOS\Source\Repos\PorthWenny\BAYLA_code\GameReviewBaylaModel\obj\Deb
 C:\Users\CHRONOS\Source\Repos\PorthWenny\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\refint\GameReviewBaylaModel.dll
 C:\Users\CHRONOS\Source\Repos\PorthWenny\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\GameReviewBaylaModel.pdb
 C:\Users\CHRONOS\Source\Repos\PorthWenny\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\ref\GameReviewBaylaModel.dll
+C:\Users\lala\Source\Repos\BAYLA_code\GameReviewBaylaModel\bin\Debug\net6.0\GameReviewBaylaModel.deps.json
+C:\Users\lala\Source\Repos\BAYLA_code\GameReviewBaylaModel\bin\Debug\net6.0\GameReviewBaylaModel.dll
+C:\Users\lala\Source\Repos\BAYLA_code\GameReviewBaylaModel\bin\Debug\net6.0\GameReviewBaylaModel.pdb
+C:\Users\lala\Source\Repos\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\GameReviewBaylaModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lala\Source\Repos\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\GameReviewBaylaModel.AssemblyInfoInputs.cache
+C:\Users\lala\Source\Repos\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\GameReviewBaylaModel.AssemblyInfo.cs
+C:\Users\lala\Source\Repos\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\GameReviewBaylaModel.csproj.CoreCompileInputs.cache
+C:\Users\lala\Source\Repos\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\GameReviewBaylaModel.dll
+C:\Users\lala\Source\Repos\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\refint\GameReviewBaylaModel.dll
+C:\Users\lala\Source\Repos\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\GameReviewBaylaModel.pdb
+C:\Users\lala\Source\Repos\BAYLA_code\GameReviewBaylaModel\obj\Debug\net6.0\ref\GameReviewBaylaModel.dll

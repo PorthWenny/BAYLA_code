@@ -60,6 +60,5 @@ namespace GameReviewBaylaBusLogic.Manager
                 userDetails.Age = CalculateAge(details.Birthdate);
             }
         }
-
     }
 }
