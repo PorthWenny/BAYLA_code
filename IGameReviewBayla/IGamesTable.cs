@@ -12,5 +12,7 @@ namespace IGameReviewBayla
         public List<Game> GetGamesList();
         public bool SearchGameByName(Game gameDetails, string searchInput);
         public void GetGameInfo(Game gameDetails, Guid game_ID);
+        public void UpdateGameInfo(Game gameDetails);
+        public bool DeleteGame(string searchInput);
     }
 }

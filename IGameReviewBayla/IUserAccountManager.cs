@@ -13,7 +13,7 @@ namespace IGameReviewBayla
         // Redeclare the function into the interface (no implementation).
         public bool LoginUser(User userDetails, string uname, string pword);
         public Guid InsertUser(User userDetails);
-        public void RetrieveUser(User userDetails, string uname);
+        public void RetrieveUser(User userDetails, Guid userId);
         public bool CheckAvailability(string check_string);
     }
 }

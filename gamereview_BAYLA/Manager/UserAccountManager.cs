@@ -35,7 +35,7 @@ namespace GameReviewBaylaBusLogic.Manager
 
                     if (user != null && user.Password == pword)
                     {
-                        RetrieveUser(userDetails, uname);
+                        RetrieveUser(userDetails, user.UserId);
                         return true; // found match
                     }
                 }
@@ -64,18 +64,18 @@ namespace GameReviewBaylaBusLogic.Manager
                     // blank
                 }
 
-                RetrieveUser(userDetails, _userAccount.Username);
+                RetrieveUser(userDetails, _userAccount.UserId);
 
                 return _userAccount.UserId = userDetails.Id;
             }
 
         }
 
-        public void RetrieveUser(User userDetails, string uname)
+        public void RetrieveUser(User userDetails, Guid userId)
         {
             using (var _context = new GameReviewDBContext())
             {
-                UserAccountInformation details = _context.UserAccountInformation.Where(user => String.Equals(user.Username, uname)).First();
+                UserAccountInformation details = _context.UserAccountInformation.Where(user => String.Equals(user.UserId, userId)).First();
 
                 userDetails.UserName = details.Username;
                 userDetails.PassWord = details.Password;

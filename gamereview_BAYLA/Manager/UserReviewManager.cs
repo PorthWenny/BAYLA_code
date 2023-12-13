@@ -91,6 +91,28 @@ namespace GameReviewBaylaBusLogic.Manager
             return userReviews;
         }
 
+        public List<Review> RetrieveAllUserReviews()
+        {
+            List<Review> userReviews = new List<Review>();
+
+            using (var _context = new GameReviewDBContext())
+            {
+                List<UserReviewTable> userReviewTables = _context.UserReviewTable.ToList();
+
+                // Assuming Review is your desired model/entity
+                foreach (var userReviewTable in userReviewTables)
+                {
+                    Review reviewDetails = new Review();
+
+                    GetUserReviewInfo(reviewDetails, userReviewTable.Review_ID);
+
+                    userReviews.Add(reviewDetails);
+                }
+            }
+
+            return userReviews;
+        }
+
 
         public void GetUserReviewInfo(Review reviewDetails, Guid reviewID)
         {

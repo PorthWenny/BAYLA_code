@@ -13,6 +13,7 @@ namespace IGameReviewBayla
         public void CreateReview(Guid gameID, Guid userID, int rating, string reviewText);
         public bool DeleteReview(Guid reviewID, Guid userID);
         public List<Review> RetrieveUserReviews(Guid userId);
+        public List<Review> RetrieveAllUserReviews ();
         public void GetUserReviewInfo(Review reviewDetails, Guid reviewID);
 
     }

@@ -14,39 +14,34 @@ namespace GameReviewBaylaBusLogic.Manager
     {
         public GamesTableManager() { }
 
+        private const int PageSize = 10;
+        private int currentPage = 1;
+        private List<Game> gamesList = new List<Game>();
+        private int totalGamesCount = 0;
+
         public List<Game> GetGamesList()
         {
-            List<Game> gamesList = new List<Game>();
-
             using (var _context = new GameReviewDBContext())
             {
-                // literally had to nerf with .Take since it takes so long...
-                var games = _context.GamesTable.Take(1000).ToList();
-                int totalGames = games.Count;
-                int processedGames = 0;
-                const int progressBarWidth = 50;
+                if (gamesList.Count == 0 || gamesList.Count >= totalGamesCount)
+                {
+                    gamesList.Clear();
+                    totalGamesCount = _context.GamesTable.Count(); 
+                    currentPage = 1;
+                }
 
-                Console.WriteLine("Currently reading library. Please wait.\n");
+                var games = _context.GamesTable.Skip((currentPage - 1) * PageSize).Take(PageSize).ToList();
+                currentPage++;
 
                 foreach (var game in games)
                 {
                     Game gameDetails = new Game();
-
                     GetGameInfo(gameDetails, game.Game_ID);
-
                     gamesList.Add(gameDetails);
-
-                    processedGames++;
-                    int progressBarLength = (int)((double)processedGames / totalGames * progressBarWidth);
-                    string progressBar = "[" + new string('#', progressBarLength) + new string(' ', progressBarWidth - progressBarLength) + "]";
-                    Console.CursorLeft = 0;
-                    Console.Write($"Progress: {progressBar} {processedGames}/{totalGames} ({(int)(((double)processedGames / totalGames) * 100)}%)");
                 }
 
-                Console.WriteLine("\n\nProcessing complete.");
+                return gamesList;
             }
-
-            return gamesList;
         }
 
         public void GetGameInfo (Game gameDetails, Guid game_ID)
@@ -69,6 +64,28 @@ namespace GameReviewBaylaBusLogic.Manager
                 gameDetails.GlobalSales = game.Global_Sales;
             }
         }
+
+        public void UpdateGameInfo(Game gameDetails)
+        {
+            using (var _context = new GameReviewDBContext())
+            {
+                var game = _context.GamesTable.FirstOrDefault(g => g.Game_ID == gameDetails.Id);
+
+                if (game != null)
+                {
+                    game.Name = gameDetails.Name;
+                    game.Rank = gameDetails.Rank;
+                    game.Platform = gameDetails.Platform;
+                    game.Publisher = gameDetails.Publisher;
+                    game.Year = gameDetails.Year;
+                    game.Genre = gameDetails.Genre;
+                    // Update if possible.
+
+                    _context.SaveChanges();
+                }
+            }
+        }
+
 
         public bool SearchGameByName(Game gameDetails, string searchInput)
         {
@@ -111,17 +128,124 @@ namespace GameReviewBaylaBusLogic.Manager
                 else // Multiple games found
                 {
                     Console.WriteLine($"Multiple games found. Do you mean any of these?");
-                    foreach (var game in games)
+                    for (int i = 0; i < games.Count; i++)
                     {
-                        Console.WriteLine($"- {game.Name}");
+                        Console.WriteLine($"[{i + 1}] {games[i].Name}");
                     }
 
-                    Console.WriteLine("Please refine your search to get a specific game.");
-                    return false;
+                    Console.Write("Select an index or [0] if none: ");
+                    int selectedIndex;
+                    bool isValidIndex = int.TryParse(Console.ReadLine(), out selectedIndex);
+
+                    if (isValidIndex && selectedIndex >= 0 && selectedIndex <= games.Count)
+                    {
+                        if (selectedIndex == 0)
+                        {
+                            Console.WriteLine("No further action taken.");
+                        }
+                        else
+                        {
+                            Guid gameID = games[selectedIndex - 1].Game_ID;
+                            gameDetails.Id = gameID;
+                            return true;
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid index or input.");
+                    }
                 }
                 return false;
             }
         }
 
+        public bool DeleteGame(string searchInput)
+        {
+            using (var _context = new GameReviewDBContext())
+            {
+                var gamesToDelete = _context.GamesTable
+                    .Where(g => g.Name.Contains(searchInput))
+                    .ToList();
+
+                if (gamesToDelete.Count == 0)
+                {
+                    Console.WriteLine("No matching games found.");
+                    return false;
+                }
+
+                if (gamesToDelete.Count == 1)
+                {
+                    var gameToDelete = gamesToDelete[0];
+
+                    Console.Write("Are you sure you want to delete this game? (yes/no): ");
+                    string userResponse = Console.ReadLine().ToLower();
+
+                    if (userResponse == "yes")
+                    {
+                        _context.GamesTable.Remove(gameToDelete);
+                        _context.SaveChanges();
+                        Console.WriteLine("Game deleted successfully.");
+                        return true;
+                    }
+                    else if (userResponse == "no")
+                    {
+                        Console.WriteLine("No further action taken.");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid input.");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine($"Multiple games found. Please specify the index of the game to delete:");
+                    for (int i = 0; i < gamesToDelete.Count; i++)
+                    {
+                        Console.WriteLine($"[{i + 1}] {gamesToDelete[i].Name}");
+                    }
+
+                    Console.Write("Select an index or [0] if none: ");
+                    int selectedIndex;
+                    bool isValidIndex = int.TryParse(Console.ReadLine(), out selectedIndex);
+
+                    if (isValidIndex && selectedIndex >= 0 && selectedIndex <= gamesToDelete.Count)
+                    {
+                        if (selectedIndex == 0)
+                        {
+                            Console.WriteLine("No further action taken.");
+                        }
+                        else
+                        {
+                            var gameToDelete = gamesToDelete[selectedIndex - 1];
+
+                            Console.Write("Are you sure you want to delete this game? (yes/no): ");
+                            string userResponse = Console.ReadLine().ToLower();
+
+                            if (userResponse == "yes")
+                            {
+                                _context.GamesTable.Remove(gameToDelete);
+                                _context.SaveChanges();
+                                Console.WriteLine("Game deleted successfully.");
+                                return true;
+                            }
+                            else if (userResponse == "no")
+                            {
+                                Console.WriteLine("No further action taken.");
+                            }
+                            else
+                            {
+                                Console.WriteLine("Invalid input.");
+                            }
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid index or input.");
+                    }
+                }
+
+                return false;
+            }
+        }
     }
 }

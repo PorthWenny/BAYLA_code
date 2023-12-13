@@ -5,6 +5,7 @@
     "\\GameReviewBaylaModel",
     "\\GameReviewSite",
     "\\gamereview_BAYLA",
+    "\\gamereview_BAYLA\\Context",
     "\\gamereview_BAYLA\\Manager"
   ],
   "SelectedNode": "\\gamereview_BAYLA\\GameReviewBayla.sln",

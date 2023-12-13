@@ -6,6 +6,7 @@ using System.Security;
 using System.Reflection.Metadata.Ecma335;
 using System.Globalization;
 using Microsoft.EntityFrameworkCore.Migrations.Operations;
+using System.Transactions;
 
 AppContext.SetSwitch("Npgsql.DisableDateTimeInfinityConversions", true);
 
@@ -140,7 +141,7 @@ else if (menuDecision == 2) {
     Thread.Sleep(2000);
 
     regMenu.InsertReg(details);
-    userMenu.RetrieveUser(details, uname);
+    userMenu.RetrieveUser(details, details.Id);
     regMenu.RetrieveRegularInfo(details);
 }
 else if (menuDecision == 3)
@@ -170,6 +171,14 @@ Console.WriteLine($"[1] View Games" +
                   $"\n[4] Show User Information" +
                   $"\n[5] Logout" +
                   $"\n[6] Exit Program");
+
+if (adminMenu.IsAdmin(details.Id))
+{
+    Console.WriteLine($"\n[ADMIN PRIVILEGE MENU]" +
+                  $"\n[7] Delete a Review" +
+                  $"\n[8] Edit Games Library");
+}
+
 Console.WriteLine();
 Console.Write($"Input decision: ");
 
@@ -183,8 +192,8 @@ if (user_Decision == 1)
     Thread.Sleep(1000);
 
     const int pageSize = 10;
-    List<Game> gamesList = manageGames.GetGamesList();
     int currentIndex = 0;
+    List<Game> gamesList = manageGames.GetGamesList();
 
     while (true)
     {
@@ -198,7 +207,7 @@ if (user_Decision == 1)
 
         for (int i = currentIndex; i < currentIndex + count; i++)
         {
-            Console.WriteLine($"{i + 1}. {gamesList[i].Name} - Rank: {gamesList[i].Rank}");
+            Console.WriteLine($"[{i + 1}]  '{gamesList[i].Name}' by {gamesList[i].Publisher} - Rank: {gamesList[i].Rank}");
         }
 
         Console.WriteLine("Commands: 'next' to show next 10 games, 'back' to clear console,");
@@ -210,6 +219,7 @@ if (user_Decision == 1)
         if (input == "next")
         {
             currentIndex += pageSize;
+            manageGames.GetGamesList();
         }
         else if (input == "back")
         {
@@ -221,11 +231,13 @@ if (user_Decision == 1)
             // Try to parse the entire input as an integer
             try
             {
-                int index = int.Parse(input);
+                string[] inputs = input.Split(' ');
+                int index = int.Parse(string.Join("", inputs));
 
                 if (index >= 1 && index <= gamesList.Count)
                 {
                     currentIndex = (index - 1) % pageSize;
+                    Console.WriteLine($"\nYou've moved to game {index} in the list.");
                 }
                 else
                 {
@@ -340,7 +352,6 @@ else if (user_Decision == 3)
         }
         else
         {
-            listCount++;
             continue;
         }
         
@@ -355,7 +366,7 @@ else if (user_Decision == 3)
 
 }
 else if (user_Decision == 4) {
-    Console.WriteLine("\n==============================================");
+    Console.WriteLine("\ns==============================================");
     Console.WriteLine($"     Showing [{details.UserName}] User Info      ");
     Console.WriteLine("==============================================");
     Thread.Sleep(1000);
@@ -379,4 +390,153 @@ else if (user_Decision == 5)
 else if (user_Decision == 6)
 {
     Environment.Exit(0);
+}
+else if (user_Decision == 7 && adminMenu.IsAdmin(details.Id))
+{
+    Console.WriteLine("\n==============================================");
+    Console.WriteLine($"           Showing Review History            ");
+    Console.WriteLine("==============================================\n");
+    Thread.Sleep(1000);
+
+    List<Review> userReviews = reviewMenu.RetrieveAllUserReviews();
+
+    Guid initialId = details.Id;
+
+    int listCount = 0;
+    foreach (var review in userReviews)
+    {
+        Console.WriteLine($"----------------------[{listCount + 1}]-------------------------");
+        userMenu.RetrieveUser(details, review.User_ID);
+        Console.WriteLine($"RATED BY: {details.UserName}");
+        manageGames.GetGameInfo(gameDetails, review.Game_ID);
+        Console.WriteLine($"Game: {gameDetails.Name}");
+        Console.WriteLine($"Rating: {review.Rating}");
+        Console.WriteLine($"Review Text: {review.ReviewText}");
+        Console.WriteLine($"Date Reviewed: {review.DateReviewed}");
+        Console.WriteLine("--------------------------------------------------");
+
+        listCount++;
+    }
+
+    restartDel:
+    Console.Write("Enter an index to delete, [0] to go back: ");
+    int index = Convert.ToInt32(Console.ReadLine());
+
+    if (index >= 1 && index <= listCount)
+    {
+        reviewMenu.DeleteReview(userReviews[index-1].Review_ID, userReviews[index-1].User_ID);
+        Console.WriteLine($"\nReview has been deleted. Thank you.\n");
+        Console.ReadKey();
+    }
+    else if (index == 0)
+    {
+        Console.Write("Going back to menu.\n");
+    }
+    {
+        Console.WriteLine($"\nReview [{index}] not found. Please input a valid index.\n");
+        goto restartDel;
+    }
+
+    Thread.Sleep(2000);
+    Console.WriteLine("\nPress any key to continue...");
+    userMenu.RetrieveUser(details, initialId);
+    Console.ReadKey();
+    Console.Clear();
+    goto ratemenu;
+}
+else if (user_Decision == 8 && adminMenu.IsAdmin(details.Id))
+{
+    retrySearch:
+    Console.WriteLine("\n==============================================");
+    Console.WriteLine($"              Editing Game Library           ");
+    Console.WriteLine("==============================================");
+    Thread.Sleep(1000);
+
+    Console.WriteLine("\nEnter the name of the game to search: ");
+    string searchInput = Console.ReadLine();
+    Console.WriteLine("\n");
+
+    if (!manageGames.SearchGameByName(gameDetails, searchInput))
+    {
+        goto retrySearch;
+    }
+
+    manageGames.GetGameInfo(gameDetails, gameDetails.Id);
+
+    Console.WriteLine($"\n------------------[GAME INFO]---------------------");
+    Console.WriteLine($"Title: {gameDetails.Name}");
+    Console.WriteLine($"Rank: {gameDetails.Rank}");
+    Console.WriteLine($"Publisher and Year: {gameDetails.Publisher}, {gameDetails.Year}");
+    Console.WriteLine($"Genre: {gameDetails.Genre}");
+    Console.WriteLine($"Platform: {gameDetails.Platform}");
+    Console.WriteLine("-----------------------------------------------------");
+
+    restartEdit:
+    Console.WriteLine("\nWhat information do you want to edit? " +
+        "\nOtherwise, type 'Delete' to delete the game or 'Back' to go back. " +
+        "\nInput decision: ");
+    string typeEdit = Console.ReadLine().ToLower();
+
+    if (typeEdit == "title")
+    {
+        Console.WriteLine("Input new title: ");
+        string newTitle = Console.ReadLine();
+
+        gameDetails.Name = newTitle;
+        manageGames.UpdateGameInfo(gameDetails);
+        Console.WriteLine("Title updated successfully!");
+    }
+    else if (typeEdit == "rank")
+    {
+        Console.WriteLine("Input new rank: ");
+        if (int.TryParse(Console.ReadLine(), out int newRank))
+        {
+            gameDetails.Rank = newRank;
+            manageGames.UpdateGameInfo(gameDetails);
+            Console.WriteLine("Rank updated successfully!");
+        }
+        else
+        {
+            Console.WriteLine("Invalid input. Rank must be a number.");
+        }
+    }
+    else if (typeEdit == "publisher")
+    {
+        Console.WriteLine("Input new publisher: ");
+        string newPublisher = Console.ReadLine();
+
+        gameDetails.Publisher = newPublisher;
+        manageGames.UpdateGameInfo(gameDetails);
+        Console.WriteLine("Publisher updated successfully!");
+    }
+    else if (typeEdit == "delete")
+    {
+        if (!manageGames.DeleteGame(gameDetails.Name))
+        {
+            goto restartEdit;
+        }
+    }
+    else if (typeEdit == "back")
+    {
+        Console.Clear();
+        goto ratemenu;
+    }
+    else
+    {
+        Console.WriteLine("Invalid input for editing. Please try again.");
+        goto restartEdit;
+    }
+
+    Thread.Sleep(2000);
+    Console.WriteLine("\nPress any key to continue...");
+    Console.ReadKey();
+    Console.Clear();
+    goto ratemenu;
+}
+else
+{
+    Console.WriteLine("\nInvalid input. Please try again.");
+    Console.ReadKey();
+    Console.Clear();
+    goto ratemenu;
 }
